@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#mais-info{
+    height: 100%;
+    width: 18%;
+    display: flex;
+}
+.mais-info img{
+    width: 100%;
+}
+.container-logo{
+    margin-top: -8px;
+    display: flex;
+    align-items: center;
+}
+.img-logo{
+    width: 34%;
+}
+.titulo-logo{
+    margin-left: -5px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+}
+#logo{
+    height: 100%;
+    width: 82%;
+}

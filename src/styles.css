@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --color-pressed : rgba(21, 136, 95, 1);
+    --color-secondary-light-20:rgba(21, 136, 95, 1);
+    --color-secondary-light-40:rgb(24, 83, 62);
+}
+body{
+    background-color: aquamarine;
+    background-image: url('assets/BackGround.gif');
+    background-size: cover;
+}
+
+.logo{
+    padding: 0;
+    height: 100%;
+}
+po-button[p-kind="secondary"] {
+--color: #7dfcce;
+--border-color-hover: #80fff6;
+--background-hover: #ffffff;
+--border-radius: 16px;
+--padding: 9px;
+--border-width: 2px;
+}
+
+po-button[p-kind="primary"] {
+--color: #7dfcce;
+--color-hover: rgba(78, 207, 161, 1);
+--border-color: #3f7e67;
+--text-color: #000000;
+--border-radius: 24px;
+--padding: 14px;
+
+}
+po-disclaimer {
+--border-radius: 1px;
+--font-size: 10px;
+}
+.po-button{
+    text-align: reverse;
+}
+.conteudo{
+    background-color: rgba(212, 255, 245, 0.76);
+    position: relative;
+    border: 2px black solid;
+    padding-inline: 30px;
+    border-radius: 20px 20px 0px 0px;
+    height: 100%;
+    overflow: auto;
+}
+h1{
+    text-align: center;
+}
+    
+po-button[p-kind="tertiary"] {
+    --color: #7dfcce;
+    --color-hover: rgba(78, 207, 161, 1);
+    --border-radius: 1px;
+    --text-color: #000000;
+    --padding: 1px;
+}

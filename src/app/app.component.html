@@ -1,0 +1,53 @@
+<header class="po-row">
+  <app-logo class="po-md-3 logo"></app-logo>
+</header>
+<main class="po-row">
+  <nav class="po-md-3 po-row po-pt-5 po-pb-5">
+    <po-button routerLink="/historia" [p-icon]="historia" class="po-md-11" p-kind="primary"></po-button>
+    <po-button routerLink="/itens" [p-icon]="itens" class="po-md-11 po-mt-3" p-kind="primary"></po-button>
+    <po-button routerLink="/abilidade" [p-icon]="abilidade" class="po-md-11 po-mt-3" p-kind="primary"></po-button>
+    <po-button routerLink="/estrategias" [p-icon]="estrategias" class="po-md-11 po-mt-3" p-kind="primary"></po-button>
+    <po-button routerLink="/meatups" [p-icon]="meatups" class="po-md-11 po-mt-3" p-kind="primary"></po-button>
+    <po-button routerLink="/dicas" [p-icon]="dicas" class="po-md-11 po-mt-3" p-kind="primary" ></po-button>
+    
+    <ng-template #historia>
+      <div class="texto-botao">
+        <span class="label">História</span> <span class="po-icon po-icon-book"></span>
+      </div>
+    </ng-template>
+
+    <ng-template #itens>
+      <div class="texto-botao">
+        <span class="label">Itens</span> <span class="po-icon po-icon-stock"></span>
+      </div>
+    </ng-template>
+
+    <ng-template #abilidade>
+      <div class="texto-botao">
+        <span class="label">Abilidade</span> <span class="po-icon po-icon-exam"></span>
+      </div>
+    </ng-template>
+
+    <ng-template #estrategias>
+      <div class="texto-botao">
+        <span class="label">Estrategias</span> <span class="po-icon po-icon-exclamation"></span>
+      </div>
+    </ng-template>
+
+    <ng-template #meatups>
+      <div class="texto-botao">
+        <span class="label">MeatUps</span> <span class="po-icon po-icon-warning"></span>
+      </div>
+    </ng-template>
+  
+    <ng-template #dicas>
+      <div class="texto-botao">
+        <span class="label">Dicas</span> <span class="po-icon po-icon-anchor"></span>
+      </div>
+    </ng-template>
+
+  </nav>
+  <div class="po-md-9 po-p-4 po-pt-2 po-pb-0 conteudo-caixa">
+    <router-outlet></router-outlet>
+  </div>
+</main>
