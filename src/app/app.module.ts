@@ -11,16 +11,22 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LogoComponent } from './components/logo/logo.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { PoButtonModule } from '@po-ui/ng-components';
-import { HistoriaPageComponent } from './components/historia-page/historia-page.component';
 import { ItensPageComponent } from './components/itens-page/itens-page.component';
+import { AbilidadePageComponent } from './components/abilidade-page/abilidade-page.component';
+import { MeetupsPageComponent } from './components/meetups-page/meetups-page.component'; 
+import { EstrategiaPageComponent } from './components/estrategia-page/estrategia-page.component';
+import { HistoriaPageComponent } from './components/historia-page/historia-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LogoComponent,
     HomePageComponent,
-    HistoriaPageComponent,
-    ItensPageComponent
+    ItensPageComponent,
+    AbilidadePageComponent,
+    EstrategiaPageComponent,
+    MeetupsPageComponent,
+    HistoriaPageComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +36,7 @@ import { ItensPageComponent } from './components/itens-page/itens-page.component
     PoNavbarModule,
     BrowserAnimationsModule,
     PoButtonModule,
-    RouterModule.forRoot([])
+    RouterModule.forRoot([]),
   ],
   providers: [],
   bootstrap: [AppComponent]
